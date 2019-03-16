@@ -14,7 +14,7 @@
   "author": "no name",
   "license": "MIT",
   "dependencies": {
-    "nodemailer-smtp-transport": ""
+    "nodemailer": ""
   },
   "engines": {
     "node": "10.x"
