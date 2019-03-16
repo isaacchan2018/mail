@@ -14,7 +14,8 @@
   "author": "no name",
   "license": "MIT",
   "dependencies": {
-    "nodemailer": ""
+    "nodemailer": "",
+    "formidible":""
   },
   "engines": {
     "node": "10.x"
