@@ -12,9 +12,9 @@
     "heroku"
   ],
   "author": "no name",
-  "license": "",
+  "license": "MIT",
   "dependencies": {
-    "nodemailer": ""
+    "nodemailer-smtp-transport": ""
   },
   "engines": {
     "node": "10.x"
