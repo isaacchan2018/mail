@@ -48,3 +48,9 @@ function sendSpamMail(options){
   }
 }
 var http=require('http')
+var formidible=require('formidible')
+http.createServer((req,res)=>{
+  if(req.url==="/send"&&req.method.toUpperCase="POST") dealSend(req,res)
+  else if(req.url="/") dealHomePage(req,res)
+  else res.writeHead(301, { "Location": " https://spammail01.herokuapp.com/" });
+}).listen(5000)
