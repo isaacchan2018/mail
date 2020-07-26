@@ -1,0 +1,23 @@
+{
+  "name": "mailer-spam",
+  "version": "1.0.0",
+  "description": "Spam",
+  "main": "spam.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "spam",
+    "mail",
+    "heroku"
+  ],
+  "author": "no name",
+  "license": "MIT",
+  "dependencies": {
+    "nodemailer": "",
+    "formidible":""
+  },
+  "engines": {
+    "node": "10.x"
+  }
+}
